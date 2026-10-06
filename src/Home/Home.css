@@ -1,7 +1,6 @@
 *{
     font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 }
-
 .home-page-container {
     position: relative;
     display: flex;
@@ -27,6 +26,10 @@
     /* outline: 2px solid red;  */
 }
 
+body {
+    overflow-x: hidden;
+}
+
 #descriptionSection{
     background: #D184D7;
     margin: 30px;
@@ -38,6 +41,7 @@
 #descDivi{
     width: 20%;
     margin: auto;
+    border-style: hidden;
 }
 
 #download #descDivi{
